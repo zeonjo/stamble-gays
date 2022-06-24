@@ -84,7 +84,7 @@ console.log(chalk.bold.gray(`
 [ ${chalk.bold.white('Country')} ] : ${country}
 [ ${chalk.bold.white('Trophy')} ] : ${trophy}
 [ ${chalk.bold.white('Crown')} ] : ${crown}`));
-      await sleep(500)
+      await sleep(2500)
     } else if (result == 'BANNED') {
       console.log(chalk.bgRed(`[ ! ] Account Got Banned LLLLLLLLLLLLLLLLLLLLLLLLLLLLLL`));
      break;
