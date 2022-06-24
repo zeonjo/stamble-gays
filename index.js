@@ -18,7 +18,7 @@ console.log(gradient('gray', 'white')(
             
 `
 ));
-console.log(chalk.bold.white('              Bye : Ryan\n\n'));
+console.log(chalk.bold.white('              Bye : jovann\n\n'));
 
   const auth = rs.question(chalk.bold.gray(`\n[ ${chalk.bold.white('+')} ] ${chalk.bold.white('Auth : ')}`));
   const check = !auth.includes('DeviceId');
